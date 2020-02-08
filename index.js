@@ -1,11 +1,18 @@
+const x = 78;
+const y = 45;
+
+const z = false;
+
+//console.log(x === y);
+
 const me = {
-  age: 33,
-  name: "Ashley",
-  occ: "social media marketer"
+  name: "Ashley"
 };
-console.log(me.age);
-console.log(me["age"]);
-let keyINeed = "age";
-console.log(me[keyINeed]);
-console.log(me["keyINeed"]);
-console.log(console);
+
+const someone = {
+  name: "Ashley"
+};
+
+//console.log(me === someone);
+
+console.log(me.name === someone.name);
